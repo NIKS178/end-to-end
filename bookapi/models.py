@@ -10,3 +10,5 @@ class Book(models.Model):
     qty = models.IntegerField()
     publication = models.CharField(max_length=100)
     reviews = models.CharField(max_length=100)
+    rrrreviews = models.CharField(max_length=100)
+
